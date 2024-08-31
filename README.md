@@ -2,6 +2,7 @@
 My name is Muhammad Samad Siddiqui .
 
 My mother is a doctor and teacher and my father is a business man and mathematics teacher 
+
 I have done O levels from happy palace group of school and A levels privately.
 
 The subjects in which I did my A levels are :
