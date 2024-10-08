@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main (){
+	int a ;
+	int i=0 ;
+	printf ("Kindly input a number : ");
+	scanf ("%d",&a);
+	while (i<9 && i!=a){
+		i=i+1  ;
+	}
+	if (i==a){
+		printf ("%d is not a multiple digit number",a);
+	}
+	else if (i!=a){
+		printf ("%d is a multiple digit number ",a);
+	}
+}

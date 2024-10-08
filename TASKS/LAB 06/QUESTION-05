@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main (){
+	int b,a,n ;
+	int i=1 ;
+	printf ("Kindly input the first term of the sequence : ");
+	scanf ("%d",&a);
+	printf ("How many terms of the sequence you want to be printed :");
+	scanf ("%d",&n);
+	b=a ;
+	printf ("The first %d terms of this sequence is : %d ,",n,a);
+	while (i<n){
+		i=i+1 ;
+		b=b/i ;
+		printf (" %d,",b);
+	}
+}

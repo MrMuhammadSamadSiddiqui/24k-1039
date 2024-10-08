@@ -1,0 +1,13 @@
+//The best loop for this program will be while-do loop as it would first check the condition then repeat te loop.//
+
+
+#include <stdio.h>
+int main (){
+	int a,b ;
+	while (a!=0){
+		printf ("\nKindly input the number : ");
+		scanf ("%d",&a);
+		b=a+b ;
+		printf ("\nThe sum of the numbers you entered till now is : %d",b);
+	}
+}

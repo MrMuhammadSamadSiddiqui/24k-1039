@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main (){
+	int a=0 ;
+	int b=0 ;
+	int sum=0 ;
+	int n;
+	int e ;\
+	int c ;
+	printf ("Input number 1 : ");
+	scanf ("%d",&a);
+	printf ("Input number 2 : ");
+	scanf ("%d",&b);
+	printf ("Till which nth term you want to print this series\nnth term:");
+	scanf ("%d",&n);
+	printf ("The first %d term of this sequence :%d,%d,",n,a,b);
+	n=n-2;
+	for (;n>0;n--){
+		sum=a+b ;
+		printf ("%d,",sum);
+		a=b;
+		b=sum ;
+	}
+}

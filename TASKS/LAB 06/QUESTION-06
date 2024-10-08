@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main (){
+	long long  int a,b,n,c ;
+	printf ("This program will tell you the series of the formula n(n-1)\nKindly input 1st term of the sequence : ");
+	scanf ("%d",&a);
+	printf ("\nKindly input 2nd term of the sequence : ");
+	scanf ("%d",&b);
+    printf ("Kindly input till which nth term you want the sequence to be printed :");
+    scanf ("%d",&n);
+    printf ("The first %d terms of this sequence are : %d , %d,",n,a,b);
+    n=n-2 ;
+    for (;n>0;n--){
+    	c=a*b ;
+    	a=b ;
+    	b=c ;
+    	printf (" %lld ,",c);
+	}
+}
