@@ -30,7 +30,7 @@
 		int d=max;
 		
 		for(i=d;i>0;i--){
-			for (j=0;j<=c;j++){
+			for (j=0;j<c;j++){
 			if (arr[j]>=i ){
 				printf (" *");
 				}
