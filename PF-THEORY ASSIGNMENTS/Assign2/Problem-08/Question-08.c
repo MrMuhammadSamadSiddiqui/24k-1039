@@ -185,7 +185,7 @@ int main (){
 	printf ("\nNote:Kindly remember binary number include only 0's and 1's\nKindly input a binary number (base 2) :  ");
 	scanf  ("%d[0-1]",&number) ;
 	s=binary_to_decimal_convertor(number) ;
-	printf ("%d when converted to decimal number system : ",number,s);
+	printf ("%d when converted to decimal number system : %d",number,s);
 	}
 	
 	else if (o==2){
@@ -233,4 +233,5 @@ int main (){
 		
 	}
 
+	
 	
